@@ -243,7 +243,7 @@ const App = () => {
 			<div className="container">
 				<div className="header-container">
 					<p className="header">I'm Sorry Habibi</p>
-					<p className="sub-text">Please talk to me ...</p>
+					<p className="sub-text">... talk to me ...?</p>
 					{!walletAddress && renderNotConnectedContainer()}
 					{walletAddress && renderConnectedContainer()}
 				</div>
